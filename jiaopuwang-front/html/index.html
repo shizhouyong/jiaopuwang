@@ -67,7 +67,47 @@
 <div class="main">
   <div class="content-main">
     <div class="am-g">
-      <div class="am-u-lg-8">8</div>
+      <div class="am-u-lg-8">
+      <p class="hotenprise-p">名企招聘</p>
+        <div class="hotenpriselist">
+          <div class="hotenpriseLogo">
+            <i>
+              <a target="-blank" rel="nofollow" href="#"></a> 
+                <img class="lazy" src="../i/index/loading.gif" data-original="../i/index/baidu.svgz"/>
+            </i>
+          </div>
+          <div class="hotenpriseLogo">
+            <i>
+              <a target="-blank" rel="nofollow" href="#"></a> 
+                <img class="lazy" src="../i/index/loading.gif" data-original="../i/index/renminribao.svgz"/>
+            </i>
+          </div>
+          <div class="hotenpriseLogo">
+            <i>
+              <a target="-blank" rel="nofollow" href="#"></a> 
+                <img class="lazy" src="../i/index/loading.gif" data-original="../i/index/wangyinzaixian.svgz"/>
+            </i>
+          </div>
+          <div class="hotenpriseLogo">
+            <i>
+              <a target="-blank" rel="nofollow" href="#"></a> 
+                <img class="lazy" src="../i/index/loading.gif" data-original="../i/index/xinlang.svgz"/>
+            </i>
+          </div>
+          <div class="hotenpriseLogo">
+            <i>
+              <a target="-blank" rel="nofollow" href="#"></a> 
+                <img class="lazy" src="../i/index/loading.gif" data-original="../i/index/yinlianshangwu.svgz"/>
+            </i>
+          </div>
+          <div class="hotenpriseLogo">
+            <i>
+              <a target="-blank" rel="nofollow" href="#"></a> 
+                <img class="lazy" src="../i/index/loading.gif" data-original="../i/index/taobao.svgz"/>
+            </i>
+          </div>        
+        </div>       
+      </div>
       <div class="am-u-lg-4">4</div>
     </div>
   </div>
@@ -85,7 +125,7 @@
 
 
 
-<!--在这里编写你的代码-->
+
 
 <!--[if (gte IE 9)|!(IE)]><!-->
 <script src="../js/amaze/jquery.min.js"></script>
@@ -96,6 +136,16 @@
 <script src="../js/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->
 <script src="../js/amaze/amazeui.min.js"></script>
-<script src="../js/index.js"></script>>
+<script src="../js/index.js"></script>
+<script src="../js/lazy.js"></script>
+
+<!--在这里编写你的代码-->
+<script type="text/javascript">      
+  $(document).ready(function() { 
+           $("img").lazyload({ 
+                  effect: "fadeIn"
+            });      
+  });  
+</script>
 </body>
 </html>
