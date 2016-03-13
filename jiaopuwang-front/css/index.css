@@ -62,17 +62,9 @@ ul li{
 	font-size: 1.3em;
 	color: #fff;
 }
-<<<<<<< HEAD
 
 .topbar_2_nav li:hover{
 	background-color:#4e4e4e;	
-=======
-.content-main{
-	width: 1024px;
-	margin: auto;
-	border: 0px solid red;
-	height: 800px;
->>>>>>> f9c5fcf16b4ea5f00cd373c7f3a83b26139b998e
 }
 
 .topbar_2_btn{
@@ -91,7 +83,6 @@ ul li{
 	text-align: center;
 }
 
-<<<<<<< HEAD
 .li_line{
 	padding-left: 15px;
 	border-left: 2px #fff solid;
@@ -107,27 +98,6 @@ ul li{
 
 .topbar_2_btn_self_hover{
 	background-color: rgba(0,0,0,0.6);
-=======
-.am-topbar .am-text-ir {
-  display: block;
-  margin-right: 10px;
-  height: 70px;
-  width: 182px;
-  background: url(../i/index/LOGO_v2.png) no-repeat left center;
-  -webkit-background-size: 125px 24px;
-  background-size: 182px 70px;
-  border: 0px solid red;
-}
-
-.topbar-myself{
-	background-color: #4e4e4e;
-	border-color: #4e4e4e;
-}
-
-.topbar-myself h1{
-	margin-bottom: 6px;
-	margin-left: 120px;
->>>>>>> f9c5fcf16b4ea5f00cd373c7f3a83b26139b998e
 }
 
 /*****************banner*****************/
@@ -145,7 +115,6 @@ ul li{
 
 .banner_bottom{
 	float: left;
-<<<<<<< HEAD
 	width: 535px;
 	height: 130px;
 	background: url(../i/images/banner_bg.png) no-repeat;
@@ -183,40 +152,6 @@ ul li{
 
 .index_choose{
 	border: 0px red solid;
-=======
-	font-size: 22px;
-	font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
-	margin-left: 70px;
-}
-
-.nav li a:hover{
-	color: #0af9b3;
-}
-
-.li-self a{
-	font-size: 24px;
-	color: #ffffff;
-}
-.btn-header{
-	margin-right: 40px;
-	overflow: hidden;
-	width: 228px;
-	float: right;
-}
-
-.header-btn-self{
-	width: 96px;
-	height: 35px;
-	background-color: rgba(0, 0, 0, 0);  
-	border: 0px;
-	padding: 0px;
-	margin: 0px;
-}
-
-.header-btn-self-hover{
-	background-color: rgba(0, 0, 0, 0.3);  
-	border: 0px;
->>>>>>> f9c5fcf16b4ea5f00cd373c7f3a83b26139b998e
 }
 
 .search_input{
@@ -226,7 +161,6 @@ ul li{
 	height: 38px;
 }
 
-<<<<<<< HEAD
 .search_btn{
 	border:1px #82B435 solid;
 	background-color: #82B435;
@@ -236,32 +170,3 @@ ul li{
 	height: 38px;
 	margin-left: 10px;
 }
-=======
-.hotenprise-p{
-	margin-top: 12px;
-	margin-left: 10px;
-	font-weight: 700;
-	font-size: 22px;
-}
-
-.hotenpriselist{
-	width: 101.7%;
-	overflow: hidden;
-	background-color: #ffffff;
-	margin-left: -18px;
-}
-
-.hotenpriseLogo{
-	border: 1px solid #f5f5f5;
-	width: 219px;
-	height: 200px;
-	float: left;
-}
-
-.hotenpriseLogo img{
-	width: 180px;
-	height: 72px;
-	margin-left:17px;
-	margin-top:16px;
-}
->>>>>>> f9c5fcf16b4ea5f00cd373c7f3a83b26139b998e
