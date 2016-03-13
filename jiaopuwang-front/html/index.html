@@ -15,7 +15,7 @@
   <!-- No Baidu Siteapp-->
   <meta http-equiv="Cache-Control" content="no-siteapp"/>
 
-  <link rel="icon" sizes="83x32" type="image/png" href="../i/index/LOGO_v2_small.png">
+  <link rel="icon" type="image/png" href="../i/images/icon.png">
 
   <!-- Add to homescreen for Chrome on Android -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -35,54 +35,53 @@
   <link rel="stylesheet" href="../css/amaze/app.css">
   <link rel="stylesheet" href="../css/index.css">
 </head>
-<body>
 
-<div class="header-1"></div>
-<div class="header-2">
-  <header class="am-topbar am-topbar-inverse topbar-myself">
-    <h1 class="am-topbar-brand">
-      <a href="#" class="am-text-ir">Amaze UI</a>
-    </h1>
-    <ul class="nav">
-      <li class="li-self"><a href="#" >首页</a></li>
-      <li><a href="#">公司</a></li>
-      <li><a href="#">职位</a></li>
-      <li><a href="#">招聘会</a></li>
-    </ul>  
-    <div class="btn-header">
-      <div class="am-topbar-right">
-        <button type="button" class="header-btn-self">企业入口</button>
-      </div>   
-      <div class="am-topbar-right">
-        <button type="button" class="header-btn-self">求职者入口</button>
-      </div>
-    <div>
+<body>
+<!-- header -->
+  <header class="top am-topbar-fixed-top">
+    <div class="topbar_1"></div>
+    <div class="topbar_2">
+      <a href="#" class="logo"></a>
+      <ul class="topbar_2_nav">
+         <li><a href="#">首页</a></li>
+         <li><a href="#">公司</a></li>
+         <li><a href="#">职位</a></li>
+         <li><a href="#">人才</a></li>
+         <li><a href="#">招聘会</a></li>
+       </ul>
+       <ul class="topbar_2_btn">
+           <li ><button class="topbar_2_btn_self">求职者入口</buttn></li>
+           <li class="li_line"><button class="topbar_2_btn_self">企业用户入口</buttn></li>
+       </ul>  
+    </div>   
   </header>
 
-
-</div>
-
-<div class="banner"></div>
-
-<div class="main">
-  <div class="content-main">
-    <div class="am-g">
-      <div class="am-u-lg-8">8</div>
-      <div class="am-u-lg-4">4</div>
+<!-- banner -->
+  <div class="banner">
+    <div class="banner_top">
+      <font class="top_font">脚扑，找工作更精准</font>
+    </div>
+    <div class="banner_bottom">
+      <div class="index_choose_type">
+        <ul>
+          <li><a href="#" class="index_choose_type_border">公司</a></li>
+          <li><a href="#" class="index_choose_type_border">人才</a></li>
+          <li><a href="#" class="index_choose_type_border">职位</a></li>
+          <li><a href="#" class="index_choose_type_4">招聘会</a></li>      
+        </ul>      
+      </div>
+      <div class="index_choose">
+        <form action="">
+          <input type="text" placeholder=" 脚扑网" class="search_input"><button class="search_btn am-radius">搜索</button>
+        </form>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="footer">
-  <div class="content-footer">
+<!-- main -->
+  <div class="main">
+    
   </div>
-</div>
-
-
-
-
-
-
 
 
 <!--在这里编写你的代码-->
@@ -93,9 +92,9 @@
 <!--[if lte IE 8 ]>
 <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-<script src="../js/amazeui.ie8polyfill.min.js"></script>
+<script src="../js/amaze/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->
 <script src="../js/amaze/amazeui.min.js"></script>
-<script src="../js/index.js"></script>>
+<script src="../js/index.js"></script>
 </body>
 </html>
