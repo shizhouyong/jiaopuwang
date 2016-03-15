@@ -12,6 +12,7 @@
 		http://www.springframework.org/schema/aop/spring-aop-4.0.xsd 
 		http://www.springframework.org/schema/tx 
 		http://www.springframework.org/schema/tx/spring-tx-4.0.xsd ">
-<!-- 商品管理的service -->
-	<bean id="topicService" class="cn.szy.forum.service.impl.TopicServiceImpl"/>
+		
+	<!-- 企业管理的service -->
+	<bean id="enterpriseService" class="cn.jiaopuwang.jiaopu.service.impl.EnterpriseServiceImpl"/>
 </beans>
