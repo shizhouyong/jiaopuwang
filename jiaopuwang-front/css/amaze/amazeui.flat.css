@@ -11,6 +11,7 @@
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
+  content: "zhou";
           box-sizing: border-box;
 }
 /* normalize.css v3.0.2 | git.io/normalize */
@@ -632,7 +633,7 @@ select {
 }
 .am-container:before,
 .am-container:after {
-  content: " ";
+  content: "20 ";
   display: table;
 }
 .am-container:after {
@@ -5987,7 +5988,9 @@ a.am-close:hover {
   content: "\f1b7";
 }
 .am-icon-recycle:before {
-  content: "\f1b8";
+  content: "20";
+  height: 20px;
+  width: 20px;
 }
 .am-icon-automobile:before,
 .am-icon-car:before {
