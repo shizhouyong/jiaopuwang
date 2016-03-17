@@ -174,7 +174,11 @@ ul li{
 }
 .search_text_div {
 	width:520px;
+<<<<<<< HEAD
 	/*border: 1px solid #000;*/
+=======
+	border: 1px solid #000;
+>>>>>>> 0871d2f10b43e0ab58e5d3097c0d106df0b0c550
 	margin-top: 8px;
 }
 .search_text {
@@ -219,7 +223,11 @@ ul li{
 	margin-left: 16px;
 }
 .enterprise_match_btn {
+<<<<<<< HEAD
 	margin-left: 7px;
+=======
+	margin-left: 6px;
+>>>>>>> 0871d2f10b43e0ab58e5d3097c0d106df0b0c550
 }
 .enterprise_match_text, .enterprise_match_btn {
 	margin-top: 6px;
@@ -229,8 +237,13 @@ ul li{
 }
 /*********main*********/
 .main {
+<<<<<<< HEAD
 	height: 710px;
 	/*border: 1px solid #000;*/
+=======
+	height: 730px;
+	border: 1px solid #000;
+>>>>>>> 0871d2f10b43e0ab58e5d3097c0d106df0b0c550
 } 
 .main_remark {
 	height:25px;
@@ -257,10 +270,13 @@ ul li{
 .resume_details_table {
 	height:82px;
 	width: 780px;
+<<<<<<< HEAD
 	color:#333;
 }
 .salary_expectation {
 	color: red;
+=======
+>>>>>>> 0871d2f10b43e0ab58e5d3097c0d106df0b0c550
 }
 .am-text-middle {
 	width:90px;
@@ -307,9 +323,15 @@ ul li{
 
 /******friendlink******/
 .friendlink {
+<<<<<<< HEAD
 	height: 90px;
 	/*border: 1px solid #000;*/
 	margin-top: 25px;
+=======
+	height: 100px;
+	border: 1px solid #000;
+	margin-top: 5px;
+>>>>>>> 0871d2f10b43e0ab58e5d3097c0d106df0b0c550
 }
 .friendlink span {
 	font-weight: bolder;
