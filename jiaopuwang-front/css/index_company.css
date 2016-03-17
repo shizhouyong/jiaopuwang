@@ -174,7 +174,7 @@ ul li{
 }
 .search_text_div {
 	width:520px;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	margin-top: 8px;
 }
 .search_text {
@@ -219,7 +219,7 @@ ul li{
 	margin-left: 16px;
 }
 .enterprise_match_btn {
-	margin-left: 6px;
+	margin-left: 7px;
 }
 .enterprise_match_text, .enterprise_match_btn {
 	margin-top: 6px;
@@ -229,8 +229,8 @@ ul li{
 }
 /*********main*********/
 .main {
-	height: 730px;
-	border: 1px solid #000;
+	height: 710px;
+	/*border: 1px solid #000;*/
 } 
 .main_remark {
 	height:25px;
@@ -257,6 +257,10 @@ ul li{
 .resume_details_table {
 	height:82px;
 	width: 780px;
+	color:#333;
+}
+.salary_expectation {
+	color: red;
 }
 .am-text-middle {
 	width:90px;
@@ -303,9 +307,9 @@ ul li{
 
 /******friendlink******/
 .friendlink {
-	height: 100px;
-	border: 1px solid #000;
-	margin-top: 5px;
+	height: 90px;
+	/*border: 1px solid #000;*/
+	margin-top: 25px;
 }
 .friendlink span {
 	font-weight: bolder;

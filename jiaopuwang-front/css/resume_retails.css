@@ -1,0 +1,39 @@
+/*****************main*****************/
+.main {
+	width: 1024px;
+	height: 2120px;
+	margin: 0 auto;
+	margin-top: 40px;
+	border: 1px solid #000;
+	font-size: 18px;
+}
+.return_link {
+	height: 40px;
+	width:1024px;
+	border: 1px solid #333;
+}
+.return_font {
+	width:80px;
+	font-size: 20px;
+	color: dimgray;
+	/*background-color: dimgray;*/
+}
+/*****************简历部分*****************/
+.resume {
+	height: 2078px;
+	width: 1024px;
+	background-color: #fff;
+	border: 1px solid red;
+}
+.resume_header_introduce {
+	width: 750px;
+	height: 260px;
+	float: left;
+	border: 1px solid #000;
+}
+.resume_header_score {
+	width: 260px;
+	height: 260px;
+	float: left;
+	border: 1px solid #000;
+}
