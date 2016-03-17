@@ -26,9 +26,9 @@
 		<property name="maxActive" value="30" />
 		<property name="maxIdle" value="5" />
 	</bean> -->
-	
+
 	<!-- 配置数据源 druid -->
-	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="close">
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
 		<property name="url" value="${jdbc.url}" />
 		<property name="username" value="${jdbc.username}"/>
 		<property name="password" value="${jdbc.password}"/>
@@ -43,12 +43,9 @@
 		<property name="minIdle" value="0" />
 		<!-- 获取连接最大等待时间 -->
 		<property name="maxWait" value="60000" />
-		
-		<property name="validationQuery" value="${validationQuery}" />
 		<property name="testOnBorrow" value="false" />
 		<property name="testOnReturn" value="false" />
-		<property name="testWhileIdle" value="true" />
-		
+		<property name="testWhileIdle" value="true" />		
 	</bean>
 	
 	<!-- sqlSessionFactory -->
@@ -61,7 +58,7 @@
 	<!-- mapper扫描器 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<!-- 扫描包路径，如果需要扫描多个包，中间使用半角逗号隔开 -->
-		<property name="basePackage" value="cn.szy.forum.mapper"></property>
+		<property name="basePackage" value="cn.jiaopuwang.jiaopu.mapper"></property>
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	</bean>
 

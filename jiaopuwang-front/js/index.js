@@ -1,9 +1,8 @@
 $(function(){
-	$(".header-btn-self").mouseover(function() {
-	    $(this).addClass("header-btn-self-hover");
+	$(".topbar_2_btn_self").mouseover(function() {
+		$(this).addClass("topbar_2_btn_self_hover");
 	});
-
-	$(".header-btn-self").mouseout(function() {
-	    $(this).removeClass("header-btn-self-hover");
+	$(".topbar_2_btn_self").mouseout(function() {
+		$(this).removeClass("topbar_2_btn_self_hover");
 	});
 })
