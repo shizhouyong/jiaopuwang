@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport"
+	    content="width=device-width, initial-scale=1">
+	<title>脚扑网</title>
+
+	<!-- Set render engine for 360 browser -->
+	<meta name="renderer" content="webkit">
+
+	<!-- No Baidu Siteapp-->
+	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+	<link rel="icon" type="image/png" href="../i/images/icon.png">
+
+	<!-- Add to homescreen for Chrome on Android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="icon" sizes="192x192" href="../i/app-icon72x72@2x.png">
+
+	<!-- Add to homescreen for Safari on iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+	<link rel="apple-touch-icon-precomposed" href="../i/app-icon72x72@2x.png">
+
+	<!-- Tile icon for Win8 (144x144 + tile color) -->
+	<meta name="msapplication-TileImage" content="../i/app-icon72x72@2x.png">
+	<meta name="msapplication-TileColor" content="#0e90d2">
+
+	<link rel="stylesheet" href="../css/amaze/amazeui.min.css">
+	<link rel="stylesheet" href="../css/amaze/app.css">
+	<!-- <link rel="stylesheet" href="../css/index.css"> -->
+	<link rel="stylesheet" href="../css/index_company.css">
+</head>
+
+<body>
+	<!-- header -->
+  <header class="top am-topbar-fixed-top">
+    <div class="topbar_1"></div>
+    <div class="topbar_2">
+      <div class="company_logo" title="脚扑网——企业版">
+	      <a href="#" class="logo"><h2 class="company_logo_statement">企业用户专区</h2></a>   
+      </div>
+      <ul class="topbar_2_nav">
+         <li class="topbar_2_first"><a href="#">首页</a></li>
+         <li><a href="#">职位管理</a></li>
+         <li><a href="#">简历管理</a></li>
+         <li><a href="#">账号管理</a></li>
+         <li class="topbar_2_last"><a href="#">招聘会</a></li>
+      </ul>   
+    </div>   
+  </header>
+  <!-- content -->
+  <div class="content">
+		<div class="top-news">
+			<ul class="am-avg-sm-1 am-avg-md-4 am-margin am-padding am-text-center admin-content-list top-news-type">
+				<li>
+					<a href="#" class="am-text-success">
+					<!-- <span class="am-icon-btn am-icon-file-text">
+					</span> -->
+          <div class=" top_news_success"><span class="top_news_success_amount">20</span></div>
+					 新收到的申请<br>数量
+					</a>
+				</li>
+				<li>
+					<a href="#" class="am-text-warning">
+					<!-- <span class="am-icon-btn am-icon-briefcase">
+					</span> -->
+          <div class=" top_news_warning"><span class="top_news_warning_amount">30</span></div>
+					待审核的申请<br>数量
+					</a>
+				</li>
+				<li>
+					<a href="#" class="am-text-danger">
+					<!-- <span class="am-icon-btn am-icon-recycle">
+					</span> -->
+          <div class=" top_news_danger"><span class="top_news_danger_amount">40</span></div>
+					即将自动处理的申请<br>数量	
+					</a>
+				</li>
+				<li>
+					<a href="#" class="am-text-secondary">
+					<!-- <span class="am-icon-btn am-icon-user-md">
+					</span> -->
+          <div class=" top_news_secondary"><span class="top_news_secondary_amount">50</span></div>
+					新增面试的申请<br>数量	
+					</a>
+				</li>
+			</ul>	
+		</div>
+
+		<div class="middle_search">
+			<div class="enterprise_logo"> <img src="../i/enterprise-version/alibaba.jpg"></div>
+			<div class="enterprise_search">
+  			<div class="enterprise_search_box">
+          <div class="selectoption">
+            <select name="choose_label">
+              <option value="全部">全部</option>
+              <option value="学历">学历</option>
+              <option value="工作年份">工作年份</option> 
+              <option value="学校">学校</option> 
+              <option value="专业">专业</option> 
+              <option value="期望职位">期望职位</option> 
+            </select>
+          </div>
+          <div class="search_text_div">
+            <input type="text" class="search_text" placeholder="请输入关键字">
+          </div>
+          <div class="search_talents_div">
+            <input type="submit" name="search_talents" value="搜索人才" class="searchbutton">
+          </div>
+        </div>
+
+  			<div class="enterprise_search_box enterprise_match">
+          <div class="enterprise_match_remark">选择总分值：</div>
+          <div class="enterprise_choose_score"> </div>
+          <div class="enterprise_match_text"><input type="text" class="search_text" placeholder=""></div>
+          <div class="enterprise_match_btn"><input type="submit" name="search_talents" value="精准匹配人才" class="searchbutton"></div>
+        </div>
+			</div>
+		</div>
+  <!-- main -->
+    <div class="main">
+      <div class="main_remark"><p class="main_remark_font">搜索到<span class="main_remark_database">3000+</span>份简历</p></div>
+  <!-- resume-start(简历详情、分值、收藏三栏与数据库连接时class不变) -->
+      <!--1-->
+      <div class="main_resume">
+        <div class="resume_details">
+          <table class="am-table am-table-bordered am-table-centered resume_details_table">
+            <tr>
+              <td rowspan="2" class="am-text-middle"></td>
+              <td>java工程师</td>
+              <td>诸女士</td>
+              <td>四川大学</td>
+              <td>5年工作经验</td>
+            </tr>
+            <tr>
+              <td>3000+</td>
+              <td>女/***</td>
+              <td>本科</td>
+              <td>个人积分5分</td>
+            </tr>
+          </table>
+        </div>
+        <div class="resume_score">匹配分<strong>60</strong></div>
+        <div class="resume_collect">
+          <div class="star_five"></div>
+          <div class="clickcollect"><a href="#">点击收藏</a></div>
+        </div>
+      </div>
+      <hr class="resume_division_line">
+        <!--2-->
+       <div class="main_resume">
+        <div class="resume_details">
+          <table class="am-table am-table-bordered am-table-centered resume_details_table">
+            <tr>
+              <td rowspan="2" class="am-text-middle"></td>
+              <td>java工程师</td>
+              <td>诸女士</td>
+              <td>四川大学</td>
+              <td>5年工作经验</td>
+            </tr>
+            <tr>
+              <td>3000+</td>
+              <td>女/***</td>
+              <td>本科</td>
+              <td>个人积分5分</td>
+            </tr>
+          </table>
+        </div>
+        <div class="resume_score">匹配分<strong>60</strong></div>
+        <div class="resume_collect">
+          <div class="star_five"></div>
+          <div class="clickcollect"><a href="#">点击收藏</a></div>
+        </div>
+      </div>
+      <hr class="resume_division_line">
+        <!--3-->
+       <div class="main_resume">
+        <div class="resume_details">
+          <table class="am-table am-table-bordered am-table-centered resume_details_table">
+            <tr>
+              <td rowspan="2" class="am-text-middle"></td>
+              <td>java工程师</td>
+              <td>诸女士</td>
+              <td>四川大学</td>
+              <td>5年工作经验</td>
+            </tr>
+            <tr>
+              <td>3000+</td>
+              <td>女/***</td>
+              <td>本科</td>
+              <td>个人积分5分</td>
+            </tr>
+          </table>
+        </div>
+        <div class="resume_score">匹配分<strong>60</strong></div>
+        <div class="resume_collect">
+          <div class="star_five"></div>
+          <div class="clickcollect"><a href="#">点击收藏</a></div>
+        </div>
+      </div>
+      <hr class="resume_division_line">
+        <!--4-->
+       <div class="main_resume">
+        <div class="resume_details">
+          <table class="am-table am-table-bordered am-table-centered resume_details_table">
+            <tr>
+              <td rowspan="2" class="am-text-middle"></td>
+              <td>java工程师</td>
+              <td>诸女士</td>
+              <td>四川大学</td>
+              <td>5年工作经验</td>
+            </tr>
+            <tr>
+              <td>3000+</td>
+              <td>女/***</td>
+              <td>本科</td>
+              <td>个人积分5分</td>
+            </tr>
+          </table>
+        </div>
+        <div class="resume_score">匹配分<strong>60</strong></div>
+        <div class="resume_collect">
+          <div class="star_five"></div>
+          <div class="clickcollect"><a href="#">点击收藏</a></div>
+        </div>
+      </div>
+      <hr class="resume_division_line">
+        <!--5-->
+       <div class="main_resume">
+        <div class="resume_details">
+          <table class="am-table am-table-bordered am-table-centered resume_details_table">
+            <tr>
+              <td rowspan="2" class="am-text-middle"></td>
+              <td>java工程师</td>
+              <td>诸女士</td>
+              <td>四川大学</td>
+              <td>5年工作经验</td>
+            </tr>
+            <tr>
+              <td>3000+</td>
+              <td>女/***</td>
+              <td>本科</td>
+              <td>个人积分5分</td>
+            </tr>
+          </table>
+        </div>
+        <div class="resume_score">匹配分<strong>60</strong></div>
+        <div class="resume_collect">
+          <div class="star_five"></div>
+          <div class="clickcollect"><a href="#">点击收藏</a></div>
+        </div>
+      </div>
+      <hr class="resume_division_line">
+        <!--6-->
+       <div class="main_resume">
+        <div class="resume_details">
+          <table class="am-table am-table-bordered am-table-centered resume_details_table">
+            <tr>
+              <td rowspan="2" class="am-text-middle"></td>
+              <td>java工程师</td>
+              <td>诸女士</td>
+              <td>四川大学</td>
+              <td>5年工作经验</td>
+            </tr>
+            <tr>
+              <td>3000+</td>
+              <td>女/***</td>
+              <td>本科</td>
+              <td>个人积分5分</td>
+            </tr>
+          </table>
+        </div>
+        <div class="resume_score">匹配分<strong>60</strong></div>
+        <div class="resume_collect">
+          <div class="star_five"></div>
+          <div class="clickcollect"><a href="#">点击收藏</a></div>
+        </div>
+      </div>
+      <hr class="resume_division_line">
+        <!--7-->
+       <div class="main_resume">
+        <div class="resume_details">
+          <table class="am-table am-table-bordered am-table-centered resume_details_table">
+            <tr>
+              <td rowspan="2" class="am-text-middle"></td>
+              <td>java工程师</td>
+              <td>诸女士</td>
+              <td>四川大学</td>
+              <td>5年工作经验</td>
+            </tr>
+            <tr>
+              <td>3000+</td>
+              <td>女/***</td>
+              <td>本科</td>
+              <td>个人积分5分</td>
+            </tr>
+          </table>
+        </div>
+        <div class="resume_score">匹配分<strong>60</strong></div>
+        <div class="resume_collect">
+          <div class="star_five"></div>
+          <div class="clickcollect"><a href="#">点击收藏</a></div>
+        </div>
+      </div>
+      <hr class="resume_division_line">
+ <!-- resume-end -->
+
+ <!-- 分页 -->
+      <div class="main_resume_paging">
+        <ul class="am-pagination am-pagination-centered">
+          <li class="am-disabled"><a href="#">&laquo;</a></li>
+          <li class="am-active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">&raquo;</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="friendlink">
+      <span>友情链接</span><br>
+      <div class="friendlink_details">&nbsp;
+        <a href="#">手机软件</a>&nbsp;
+        <a href="#">中大网校</a>&nbsp;
+        <a href="#">人人都是产品经理</a>&nbsp;
+        <a href="#">教师招聘</a>&nbsp;
+        <a href="#">研究报告</a>&nbsp;
+        <a href="#">汽车团购</a>&nbsp;
+        <a href="#">创投圈创头条</a>&nbsp;
+        <a href="#">安卓开发论坛</a>&nbsp;
+        <a href="#">新疆人才网</a>&nbsp;
+        <a href="#">互联网的一些事</a>&nbsp;
+        <a href="#">爱思英语网</a>&nbsp;
+        <a href="#">徐州英才网</a>&nbsp;
+        <a href="#">中华英才网</a>&nbsp;
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+  	 <div class="footer_about_jiaopu">
+        <ul class="am-nav-pills footer_about_retails">
+          <li><a href="#">关于我们</a></li>
+          <li><a href="#">意见反馈</a></li>
+          <li><a href="#">使用帮助</a></li>
+          <li><a href="#">用户协议</a></li>
+          <li><a href="#">脚扑网微博</a></li>
+          <li><a href="#">网站地图</a></li>
+        </ul>
+     </div>
+     <div class="footer_about_copyright1">
+        <span>Copyright  2016 jiaopu。club 京ICP备14013441号-1 京公网安备11010502027210 </span>
+        
+     </div>
+     <div class="footer_about_copyright2">
+        <span>jiaopu.club.保留所有版权. 使用这些服务遵守用户协议。</span>
+     </div>	
+  </div>
+
+	
+
+
+
+
+<!--在这里编写你的代码-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="../js/amaze/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="../js/amaze/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="../js/amaze/amazeui.min.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>
