@@ -1,0 +1,520 @@
+/***********************************招聘会css********************************************/
+body{
+	margin:0px;
+	display: block;
+	width: 100%;
+	-webkit-background-size: 1366px 424px;
+  	background-size: 1366px 424px;
+  	background-color: #f2f2f2;
+}
+
+div{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul, li{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+}
+
+a{
+	color: #000;
+}
+
+a:link, a:visited, a:hover, a:active{
+	color: #000;
+}
+
+*:focus{
+	outline: none;
+}
+/**************************************topbar*******************************************/
+.top{
+	width: 100%;
+	height: 85px;
+	border: 0px solid red;
+}
+
+.topbar_1{
+	background:#000; 
+	width:100%; 
+	height:30px;
+}
+
+.topbar_2{
+	background: url(../i/images/topbar_bg.png) no-repeat; 
+	width:100%; 
+	height:55px;
+}
+
+.logo {
+	display: block;
+	float: left;
+	margin-left: 140px;
+	height: 55px;
+	width: 143px;
+	background: url(../i/images/LOGO.png) no-repeat left center;
+	-webkit-background-size: 143px 55px;
+	background-size: 143px 55px;
+}
+
+.topbar_2_nav{
+	overflow: hidden;
+	float: left;
+	border: 0px red solid;
+	margin:0px;
+	padding:0px;
+	width: 660px;
+}
+
+.topbar_2_nav li{
+	border: 0px red solid;
+	float: left;
+	width: 100px;
+	height: 55px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.topbar_2_nav li a{
+	font-size: 1.3em;
+	color: #fff;
+}
+
+.topbar_2_nav li:hover{
+	background-color:#4e4e4e;	
+}
+
+.topbar_2_btn{
+	border: 0px red solid;
+	padding-left: 0px;
+	margin-top:13px;
+	overflow: hidden;
+	float: right;
+	margin-right: 140px;
+}
+
+.topbar_2_btn li{
+	float: left;
+	width: 130px;
+	text-align: center;
+}
+
+.li_line{
+	padding-left: 15px;
+	border-left: 2px #fff solid;
+}
+
+.topbar_2_btn_self{
+	border:none;
+	background-color: rgba(0,0,0,0);
+	color: #fff;
+	font-size: 1em;
+	height:28px;
+}
+
+.topbar_2_btn_self_hover{
+	background-color: rgba(0,0,0,0.6);
+}
+
+/**************************************mian********************************************/
+.main{
+	border:0px solid red;
+	width: 1024px;
+	overflow: hidden;
+	margin: 45px auto;
+}
+/*搜索框*/
+.search{
+	width: 100%;
+	height: 60px;
+	float: left;
+	margin:5px 0px;
+	background-color: #fff;
+	border:1px solid #9e9e9e;
+}
+
+.search_input_wrapper{
+	float: left;
+	/*width: auto;*/
+	background-color: #f2f2f2;
+	border:1px solid #9e9e9e;
+	width: 500px;
+	height: 40px;
+	margin: 10px;
+}
+
+.search_input{
+	background-color: #f2f2f2;
+	border:none;
+	width: 400px;
+	height: 30px;
+	margin: 3px;
+}
+
+.search_btn{
+	width: 70px;
+	height: 30px;
+	margin: 3px;
+	color: #9e9e9e;
+	text-align: right;
+	border:none;
+	background-color: #f2f2f2;
+	background:url("../i/images/search_icon.png") no-repeat left center;
+}
+
+.search_hotfont{
+	font-size:1em;
+	width: 300px;
+	height: 40px;
+	float: left;
+	margin:16px;
+}
+
+/*******热门招聘会*******/
+.hot_recruitment{
+	border-bottom:1px solid #9e9e9e;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+
+.hot_recruitment_top{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background-color: #fff;
+	border:1px solid #9e9e9e;
+}
+
+.hot_recruitment_top_left{
+	border:0px solid red;
+	font-size: 1em;
+	width: 180px;
+	margin: 10px;
+	float: left;
+	font-weight:bold;	
+}
+
+.hot_icon{
+	border:0px solid red;
+	width: 45px;
+	height: 30px;
+	float: right;
+	background:url("../i/images/hot_icon.jpg") repeat-x left center;
+}
+
+.hot_recruitment_top_right{
+	border:0px solid red;
+	font-size: 1em;
+	width: 130px;
+	margin: 6px;
+	float: right;
+}
+
+.hot_recruitment_top_right_btn{
+	border:none;
+	height: 35px;
+	background-color: #82B435;
+	color:#fff;
+}
+
+.hot_recruitment_img{
+	width: 100%;
+	height: 200px;
+	float: left;
+	margin: 10px;
+	border:0px solid blue;
+}
+
+.hot_recruitment_list{
+	overflow: hidden;
+	width: 100%;
+	border:0px solid red;
+}
+
+.hot_recruitment_childlist{
+	overflow: hidden;
+	width: 180px;
+	margin: 0px 12px;
+	float: left;
+	border:0px solid red;
+}
+
+/***********社会招聘会****************/
+.society_recruitment{
+	border-bottom:1px solid #9e9e9e;
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+}
+
+.society_recruitment_left{
+	border:0px solid blue;
+	height: 340px;
+	width: 250px;
+	float: left;
+	background-color: #fff;
+}
+
+.society_recruitment_font{
+	font-size: 0.8em;
+	color: blue;
+	float: left;
+	margin: 0px 80px;
+}
+
+.society_recruitment_header{
+	font-size: 1em;
+	color: #000;
+	float: left;
+	text-align: center;
+	margin: 0px 10px;
+}
+
+.society_recruitment_right{
+	border:0px solid red;
+	float: left;
+	width: 760px;
+	height: 340px;
+	margin: 3px;
+}
+
+.society_recruitment_right_title{
+	background-color: #82B435;
+	width: 100px;
+	height: 35px;
+	color: #fff;
+	font-weight:bold;
+	font-size: 1.2em;
+	text-align: center;
+	margin: 5px;
+}
+
+.society_recruitment_right_list{
+	width: 100%;
+	height: 290px;
+	float: left;
+	background-color: #fff;
+}
+
+.society_recruitment_right_childlist{
+	width: 100%;
+	height: 42px;
+	border-bottom:1px dashed #9e9e9e;
+}
+
+.society_recruitment_title, .society_recruitment_address, .society_recruitment_info{
+	width: 32%;
+	height: 42px;
+	float: left;
+	padding: 8px 0px;
+	margin: 0px 5px;
+}
+
+.society_recruitment_title_hot{
+	width: 45px;
+	height: 30px;
+	float: right;
+	background:url("../i/images/hot_icon.jpg") repeat-x left center;
+}
+
+.society_recruitment_address_icon{
+	width: 20px;
+	height: 30px;
+	float: right;
+	background:url("../i/images/address_icon.png") no-repeat left center;
+}
+
+.society_recruitment_date{
+	width: 100px;
+	height: 30px;
+	float: right;
+	background:url("../i/images/date_icon.png") no-repeat right center;
+}
+
+.society_recruitment_more{
+	width: 60px;
+	float: right;
+	margin: 5px;
+	font-size: 1.1em;
+}
+
+.society_recruitment_more a{
+	color: #82B435;
+}
+
+/*****************校园招聘*******************/
+.campus_recruitment{
+	border:0px solid red;
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+
+.campus_recruitment_top{
+	border:0px solid blue;
+	width: 100%;
+	height: 40px;
+}
+
+.campus_recruitment_top_left{
+	width: 120px;
+	height: 35px;
+	float: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	background-color: #82B435;
+}
+
+.campus_recruitment_top_right{
+	border:0px solid red;
+	width: 320px;
+	height: 40px;
+	float: right;
+	margin-right: 15px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.campus_recruitment_amount{
+	float: right;
+}
+
+.campus_recruitment_amount li{
+	background-color: #9e9e9e;
+	height: 35px;
+	width: 20px;
+	text-align: center;
+	font-size: 1.2em;
+	color: #5e5e5e;
+	font-weight: bold;
+	float: left;
+	margin-left: 5px;
+}
+
+.campus_recruitment_list{
+	width: 100%;
+	height: 380px;
+	float: left;
+	background-color: #fff;
+}
+
+.campus_recruitment_childlist{
+	width: 100%;
+	height: 42px;
+	border-bottom:1px dashed #9e9e9e;
+}
+
+.campus_recruitment_title, .campus_recruitment_address, .campus_recruitment_info{
+	width: 25%;
+	height: 42px;
+	float: left;
+	padding: 8px 0px;
+	margin: 0px 5px;
+}
+
+.campus_recruitment_title_hot{
+	width: 45px;
+	height: 30px;
+	float: right;
+	background:url("../i/images/hot_icon.jpg") repeat-x left center;
+}
+
+.campus_recruitment_address_icon{
+	width: 20px;
+	height: 30px;
+	float: right;
+	background:url("../i/images/address_icon.png") no-repeat left center;
+}
+
+.campus_recruitment_date{
+	width: 100px;
+	height: 30px;
+	float: right;
+	background:url("../i/images/date_icon.png") no-repeat right center;
+}
+
+.campus_recruitment_more{
+	width: 60px;
+	float: right;
+	margin: 5px;
+	font-size: 1.1em;
+}
+
+.campus_recruitment_more a{
+	color: #82B435;
+}
+
+.campus_recruitment_amount_list{
+	width: 20%;
+	height: 42px;
+	float: right;
+	padding: 8px 0px;
+	margin: 0px 5px;
+}
+
+.campus_recruitment_number{
+	color: blue;
+}
+
+.campus_recruitment_more{
+	width: 60px;
+	float: right;
+	margin: 5px;
+	font-size: 1.1em;
+}
+
+.campus_recruitment_more a{
+	color: #82B435;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************footer*****************/
+.footer {
+	width: 100%;
+	height:110px;
+	font-size: 0.9em;
+	background-color: #6e6e6e;
+}
+.footer_about_jiaopu {
+	margin-top: 10px;
+}
+.footer_about_jiaopu, .footer_about_copyright1, .footer_about_copyright2 {
+	border:0px red solid;
+	margin-left: auto;
+	margin-right: auto;
+	height:40px;
+	width:800px;
+	vertical-align:middle;
+	line-height:40px;
+}
+.footer_about_retails li a {
+	margin-left: 60px;
+	color:#333;
+}
+.footer_about_copyright1 {
+	width:550px;
+	height:35px;
+	line-height: 50px;
+}
+.footer_about_copyright2 {
+	margin-top: 0px;
+	width: 490px;
+	height: 35px;
+}
