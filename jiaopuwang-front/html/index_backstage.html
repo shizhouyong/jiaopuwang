@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="keywords" content="jquery,ui,easy,easyui,web">
+  <meta name="description" content="easyui help you build your web page easily!">
+  <title>脚扑网</title>
+
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+  <link rel="icon" type="image/png" href="../i/images/icon.png">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="../i/app-icon72x72@2x.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+  <link rel="apple-touch-icon-precomposed" href="../i/app-icon72x72@2x.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="../i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+
+  <link rel="stylesheet" href="../css/amaze/amazeui.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/index_backstage.css">
+</head>
+<body>
+<!-- ——————————————————————————————html内容区—————————————————————————————————— -->
+<div class="backstage_layout am-g">
+  <div class="header">
+    <div class="backstage_header_LOGO am-u-sm-2">
+      <a href="#" class="logo"></a>
+      <h3>后台管理</h3> 
+    </div>
+    <div class="backstage_header_topbar am-u-sm-8">
+
+    </div>
+    <div class="backstage_header_user am-u-sm-2">1</div>
+  </div>
+  <div class="body">
+  <!-- ——————————————————————————————Nav—————————————————————————————————— -->
+    <div class="backstage_navigator am-u-sm-2">
+      <ul class="ul_nav">
+        <li class="li_nav">
+          <img class="nav_img" src="../i/icon/user.png" alt="user">
+          <a class="a_nav" href="#">用户管理</a>
+          <button id="display_1" class="btn_nav">+</button>
+          <ul class="ul_nav_next display_1">
+            <li><img class="nav_img_next" src="../i/icon/triangle.png" alt="user"><a href="#">个人用户管理</a></li>
+            <li><img class="nav_img_next" src="../i/icon/triangle.png" alt="user"><a href="#">企业用户管理</a></li>
+            <li><img class="nav_img_next" src="../i/icon/triangle.png" alt="user"><a href="#">用户数据分析</a></li>
+          </ul>
+        </li>
+        <li class="li_nav">
+          <img class="nav_img" src="../i/icon/friends.png" alt="position">
+          <a class="a_nav" href="#">职位管理</a>
+          <button id="display_2" class="btn_nav">+</button>
+        </li>
+        <li class="li_nav">
+          <img class="nav_img" src="../i/icon/key.png" alt="application">
+          <a class="a_nav" href="#">申请管理</a>
+          <button id="display_3" class="btn_nav">+</button>
+        </li>
+        <li class="li_nav">
+          <img class="nav_img" src="../i/icon/location.png" alt="interview">
+          <a class="a_nav" href="#">面试管理</a>
+          <button id="display_4" class="btn_nav">+</button>
+        </li>
+        <li class="li_nav">
+          <img class="nav_img" src="../i/icon/add.png" alt="advertisement">
+          <a class="a_nav" href="#">广告管理</a>
+          <button id="display_5" class="btn_nav">+</button>
+        </li>
+        <li class="li_nav">
+          <img class="nav_img" src="../i/icon/globe.png" alt="finance">
+          <a class="a_nav" href="#">财务管理</a>
+          <button id="display_6" class="btn_nav">+</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ——————————————————————————————Content—————————————————————————————————— -->
+    <div class="backstage_content am-u-sm-10">
+      <div class="top">
+        <ul>
+          <li>
+            <label>性别</label>
+          </li>
+          <li>
+            <select placeholder="请选择性别">  
+              <option value ="1">全部</option>  
+              <option value ="2">男</option>  
+              <option value ="3">女</option>   
+            </select>  
+          </li>
+          <li>
+            <label>年龄</label>
+          </li>
+          <li>
+            <select placeholder="请选择年龄范围">  
+              <option value ="1">全部</option>  
+              <option value ="2">18~25</option>  
+              <option value ="3">25~30</option>  
+              <option value ="4">30~40</option>
+              <option value ="4">40~50</option>
+              <option value ="4">50以上</option>
+            </select> 
+          </li>
+          <li>
+            <label>学历</label>
+          </li>
+          <li>
+            <select placeholder="请选择学历">  
+              <option value ="1">全部</option>  
+              <option value ="2">中专</option>  
+              <option value ="3">高中</option>  
+              <option value ="3">大专</option> 
+              <option value ="3">本科</option>
+              <option value ="3">研究生</option> 
+              <option value ="3">博士</option>   
+            </select> 
+          </li>
+          <li>
+            <input type="text" placeholder="  请输入关键字">
+          </li>
+          <li>
+            <input class="btn_search" type="button" value="查 询">
+          </li>
+          <li class="li_plus"><label>新增</label></li>
+          <li class="li_plus">
+            <img src="../i/icon/plus.png" alt="plus">
+          </li>
+
+        </ul>
+      </div>
+       <!-- ——————————————————————————————Content_main—————————————————————————————————— -->
+      <div class="main">
+        <table>
+          <tr class="tr_th">
+            <th>序号</th>
+            <th>姓名</th>
+            <th>邮箱</th>
+            <th>性别</th>
+            <th>年龄</th>
+            <th>学历</th>
+            <th>操作</th>
+          </tr>
+          <tr class="tr_single">
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr class="tr_single">
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr class="tr_single">
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr class="tr_single">
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr class="tr_single">
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr class="tr_single">
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr class="tr_single">
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+          <tr class="tr_single">
+            <td>1</td>
+            <td><a href="#">周洛阳</a></td>
+            <td>luoyang.zhou@gmail.com</td>
+            <td>男</td>
+            <td>21</td>
+            <td>本科</td>
+            <td>
+              <img src="../i/icon/pancil.png" alt="pencil"/>
+              <img src="../i/icon/redtrash.png" alt="redtrash"/>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>  
+</div>
+
+<!-- ——————————————————————————————引入js文件—————————————————————————————————— -->
+<script type="text/javascript" src="../js/amaze/jquery.min.js"></script>
+<script type="text/javascript" src="../js/index_backstage.js"></script>
+</body>
+</html>

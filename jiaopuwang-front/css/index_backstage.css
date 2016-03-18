@@ -1,0 +1,196 @@
+/* ************************************全局定义************************************ */
+ul,ul>li>ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+:focus{
+    outline: 0;
+}
+
+/* ************************************布局************************************ */
+.backstage_layout{
+	
+}
+
+.header{
+	height:50px;
+	background-color: #ffffff;
+}
+
+.backstage_navigator{
+	height:600px;
+	background-color: #1d2939;
+}
+
+.backstage_content{
+	height:600px;
+	background-color: #E4E8EB;
+}
+
+/* ************************************Header************************************ */
+.header h3{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-family: "微软雅黑";
+	color: #F5A918;
+}
+
+.logo {
+	display: block;
+	float: left;
+	margin-left: -10px;
+	height: 45px;
+	width: 117px;
+	background: url(../i/images/LOGO.png) no-repeat left center;
+	-webkit-background-size: 143px 55px;
+	background-size: 117px 45px;
+
+}
+
+
+/* ************************************Nav************************************ */
+.ul_nav{
+	border: 0px solid red;
+	width: 100%;
+}
+
+.li_nav{
+	border: 0px solid red;
+	padding:3px;
+}
+
+.a_nav{
+	color: #C9C9C9;
+	font-size: 0.8em;
+	margin-left:10px;
+}
+
+.btn_nav{
+	float:right;
+	background-color: rgba(0,0,0,0);
+	border: 0px solid red;
+	color: #C9C9C9;
+}
+
+.nav_img {
+	width:16px;
+}
+
+/* -------------Nav_next--------------- */
+
+.ul_nav_next {
+	display: none;
+}
+
+.ul_nav_next li{
+	margin-left:12px;
+}
+
+.nav_img_next {
+	width: 6px;
+}
+
+.ul_nav_next li a{
+	color: #C9C9C9;
+	font-size: 0.6em;
+	margin-left:10px;
+}
+
+/* -------------Content--------------- */
+
+.top{
+	border: 0px solid red;
+	width: 100%;
+	overflow: hidden;
+}
+
+.top ul{
+	margin-top:12px;
+	border: 0px solid red;
+	width: 100%;
+	overflow: hidden;
+}
+
+.top ul li{
+	border: 0px solid red;
+	float: left;
+	height: 36px;
+	padding: 0px 6px;
+}
+
+.top ul li img{
+	width:24px; 
+	height:24px;
+	margin-top:6px;
+}
+
+.li_plus{
+	float:right !important;
+}
+
+.top select{
+	width: 120px;
+	height: 100%;
+	font-size: 0.8em; 
+	border: 0px;
+}
+
+.top label{
+	height: 100%;
+	font-size: 0.9em;
+	padding-top: 8px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Verdana", "Aril", "sans-serif";
+}
+
+.top input{
+	border: 0px;
+	font-size: 0.8em;
+	height: 100%;
+}
+
+.btn_search{
+	width: 100px;
+	background-color: #1CAF9C;
+	color: #ffffff;
+}
+
+/* -------------Content_main--------------- */
+.main{
+	border: 0px solid red;
+	width: 100%;
+	overflow: hidden;
+}
+
+table{
+	margin-top: 20px;
+}
+
+.main tr{
+	width: 100%;
+}
+
+.tr_th{
+	background-color: #1CAF9C;
+	color: #E4E8EB;
+}
+
+.tr_single{
+	background-color: #ffffff;
+}
+
+td,th{
+	padding: 4px 0px;
+	height: 100%;
+	width: 153px;
+	text-align: center;
+	font-size: 1em;
+
+}
+
+td>img{
+	width: 14px;
+	height: 14px;
+	margin: 0px 4px;
+}
